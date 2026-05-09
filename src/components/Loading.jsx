@@ -1,9 +1,9 @@
 // src/components/LoadingPage.jsx
 
 import React, { useEffect, useState } from "react";
-import panda from "../assets/panda.png";
-import Icon1 from "../assets/Icon1.png"
-import Icon2 from "../assets/Icon2.png"
+import panda from "/pvt/panda.webp";
+import Icon1 from "/pvt/Icon1.webp"
+import Icon2 from "/pvt/Icon2.webp"
 
 const LoadingPage = ({ onDone }) => {
   const [progress, setProgress] = useState(0);

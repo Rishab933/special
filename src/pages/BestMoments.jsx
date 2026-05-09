@@ -1,19 +1,19 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { useLoading } from "../components/LoadingContext";
-import flower from "../assets/gardening.png";
-import kiss from "../assets/kisses.png";
-import img1 from "../assets/pvt/img1.webp"
-import img2 from "../assets/pvt/img2.jpg"
-import img3 from "../assets/pvt/img3.jpg"
-import img4 from "../assets/pvt/img4.jpg"
-import img5 from "../assets/pvt/img5.jpg"
-import img6 from "../assets/pvt/img6.jpg"
-import img7 from "../assets/pvt/img7.jpg"
-import img8 from "../assets/pvt/img8.jpg"
-import img9 from "../assets/pvt/img9.jpg"
-import img10 from "../assets/pvt/img10.jpg"
-import img11 from "../assets/pvt/img11.jpg"
+import flower from "/pvt/gardening.webp";
+import kiss from "/pvt/kisses.webp";
+import img1 from "/pvt/img1.webp"
+import img2 from "/pvt/img2.webp"
+import img3 from "/pvt/img3.webp"
+import img4 from "/pvt/img4.webp"
+import img5 from "/pvt/img5.webp"
+import img6 from "/pvt/img6.webp"
+import img7 from "/pvt/img7.webp"
+import img8 from "/pvt/img8.webp"
+import img9 from "/pvt/img9.webp"
+import img10 from "/pvt/img10.webp"
+import img11 from "/pvt/img11.webp"
 
 const placeholder = (color) =>
   `data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='500'%3E%3Crect width='400' height='500' fill='${encodeURIComponent(color)}'/%3E%3C/svg%3E`;
@@ -152,7 +152,7 @@ const BestMoments = () => {
           <img
             src={photos[9].src}
             alt="moment 9"
-            className="w-full h-32 sm:h-56 object-cover rounded-lg shadow-md hover:scale-105 transition-transform duration-300 -mt-3 sm:mt-[1px] -rotate-90"
+            className="w-full h-28 sm:h-56 object-cover rounded-lg shadow-md hover:scale-105 transition-transform duration-300 -mt-3 sm:mt-[1px] -rotate-90"
           />
           <img
             src={photos[8].src}

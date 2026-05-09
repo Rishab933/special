@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import Letter from "../assets/Letter.jpg";
-import Letter2 from "../assets/Letter2.jpg";
+import Letter from "/pvt/Letter.webp";
+import Letter2 from "/pvt/Letter2.webp";
 import { useNavigate } from "react-router-dom";
 import { useLoading } from "../components/LoadingContext";
 

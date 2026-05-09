@@ -1,5 +1,5 @@
 import React from 'react'
-import angry from '../assets/angry.png'
+import angry from '/pvt/angry.webp'
 
 const LastPage = () => {
   return (

@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
-import bow from "../assets/bow.png";
-import panda from "../assets/panda.png";
-import panda2 from "../assets/panda2.png";
+import bow from "/pvt/bow.webp";
+import panda from "/pvt/panda.webp";
+import panda2 from "/pvt/panda2.webp";
 import { Typewriter } from "react-simple-typewriter";
 import { useNavigate } from "react-router-dom";
 import { useLoading } from "../components/LoadingContext";
-import img from "../assets/pvt/password_page/img13.jpg"
+import img from "/pvt/img13.webp"
 
 const keypadRows = [
   [1, 2, 3],

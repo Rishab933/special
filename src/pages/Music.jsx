@@ -1,10 +1,10 @@
 import React, { useState, useRef } from "react";
 import { useNavigate } from "react-router-dom";
 import { useLoading } from "../components/LoadingContext";
-import myCdImage from "../assets/cd.jpg";
-import card from "../assets/pvt/song/img12.jpg";
-import cardbg from "../assets/musicCardbg.jpg";
-import song from "../assets/pvt/song/fav_song.mp3";
+import myCdImage from "/pvt/cd.webp";
+import card from "/pvt/img12.webp";
+import cardbg from "/pvt/musicCardbg.webp";
+import song from "/pvt/fav_song.mp3";
 
 const MusicPage = () => {
   const [isPlaying, setIsPlaying] = useState(false);
